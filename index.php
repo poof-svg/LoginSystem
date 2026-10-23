@@ -60,7 +60,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         echo "Registered Successfully";
 
         if($result){
-            header("Location: register.php");
+            header("Location: index.php");
             exit();
         }
     }
